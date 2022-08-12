@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container nav ul {
+    display: flex;
+}
+
+.container nav ul li {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    --bs-link-color: white;
+
+}
+
+.container nav ul li a {
+    text-decoration: none;
+}
+
+.container nav ul li a:hover {
+    color: #c9cba3;
+}
+
+.container nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+.active {
+    color: #c9cba3;
+}
+
+@media(max-width:600px) {
+    .container {
+        display: none;
+    }
+}
